@@ -1,0 +1,45 @@
+extends base.pug
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    section#introSection 
+      div Welcome to Harshit's Gym
+      div.small No PAIN NO GAIN
+
+    section#missionSection 
+      h2 Our Goals
+
+      div.card
+        h3 Quickly Muscle Gain 
+        div.card-box 
+          div.card-img 
+            img(src="/static/img/R.png")
+
+      div.card
+        h3 Cardiovascular Goals
+        div.card-box 
+          div.card-img 
+            img(src="/static/img/R2.png")
+
+      div.card
+        h3 Healthy Diet
+        div.card-box 
+          div.card-img 
+            img(src="/static/img/R3.png")
+
+      div.card
+        h3 Stretch often
+        div.card-box 
+          div.card-img 
+            img(src="/static/img/R4.png")
+
+    section#sponsorsSection 
+      h2 Our Sponsors 
+      div#sponser 
+        img(src="/static/img/s1.png", alt="no img", Class ="spImage")
+        img(src="/static/img/s2.png", alt="no img", Class ="spImage")
+        img(src="/static/img/s3.png", alt="no img", Class ="spImage")
+        img(src="/static/img/s4.png", alt="no img", Class ="spImage")

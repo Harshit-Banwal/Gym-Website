@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Harshit Gym 
+    block scripts
+    block style
+  body
+    nav#navbar 
+      ul 
+        div#logo
+          img(src="/static/img/gymlogo.png")
+          | H G
+
+        li #[a(href='/') Home]
+        li #[a(href='/') About]
+        li #[a(href='/') Services]
+        li #[a(href='/contact') Contact Us]
+
+    block content
+    Footer#footer
+      | Copyright © 2022 Harshitgym.com | All right reserve

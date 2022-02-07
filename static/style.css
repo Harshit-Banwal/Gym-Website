@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 10px;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+#logo img{
+    height: 40px;
+}
+
+#navbar{
+    background-color: rgb(47, 187, 187);
+    padding: 10px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: white;
+    text-decoration: none;
+    padding: 6px 20px;
+}
+
+#navbar a:hover{
+    color: black;
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/gym.jpg");
+    /* opacity: 0.7; */
+    font-size: 50px;
+    height: 350px;
+    background-color: red;
+}
+
+#introSection div.small{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#missionSection{
+    height: 300px;
+    background-color: white;
+}
+
+#missionSection h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #2d2a2a;
+    width: 20%;
+    height: 70%;
+    margin: 24px 32px;
+    display: inline-block;
+}
+
+.card h3{
+    text-align: center;
+    color: white;
+    margin: 4px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img{
+    height: 185px;
+    padding: 20px 5px;
+}
+
+.card-img img{
+    display: inline;
+    height: 150px;
+}
+
+#sponsorsSection{
+    height: 290px;
+    background-color: rgb(137 231 231);
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#sponser{
+    height: 100px;
+    max-width: 1000px;
+    margin: 13px auto;
+}
+
+.spImage{
+    height: 230%;
+    padding: 10px 20px;
+}
+
+#footer{
+    height: 55px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
